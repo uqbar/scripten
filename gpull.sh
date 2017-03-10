@@ -15,7 +15,7 @@ find * -prune -type d | while read d; do
   cd $d
   if [ -d ".git" ]; then
     echo ""
-    echo "----> Pulling ${CYAN}[$d]${NC}"
+    echo "----> Pulling ${CYAN}$d${NC}"
     git checkout master
     git pull origin master
   else
