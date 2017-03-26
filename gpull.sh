@@ -1,7 +1,7 @@
 #!/bin/sh
 ## Script to pull the latest from master upstream for a bunch of local git repos. Run in a directory above the git repo dirs
 ## Copyright (C) 2017 Hrishi Dixit - All Rights Reserved
-## Last revised 03/09/2017
+## Last revised 03/26/2017
 ## 
 ## Usage: gpull.sh
 ##
